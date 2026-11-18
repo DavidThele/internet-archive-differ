@@ -1,0 +1,11 @@
+[project]
+name = "internet-archive-differ"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.15"
+dependencies = [
+    "curl-cffi>=0.17.0",
+    "httpx>=0.28.1",
+    "trafilatura>=2.3.1",
+]
